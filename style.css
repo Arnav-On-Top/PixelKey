@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background:linear-gradient(to right, blue, yellow);
+    font-family: Arial;
+    text-align: center;
+    overflow: hidden;
+}
+h1 {
+    margin: 15px 0 5px;
+    color: black;
+}
+body > p {
+    margin: 5px;
+    color: brown;
+}
+.main {
+    width: 850px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.controls {
+    width: 280px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid lightgreen;
+    border-radius: 10px;
+}
+.controls p {
+    margin: 8px;
+    color: maroon;
+}
+.colorText {
+    margin-top: 15px;
+    font-weight: bold;
+}
+#currentColor {
+    width: 40px;
+    height: 40px;
+    margin: 8px auto;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#drawingArea {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    border: 3px solid deepskyblue;
+    background-color: white;
+}
+.box {
+    border: 1px solid lightcoral;
+    background-color: white;
+}
+.cursor {
+    border: 2px solid black;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PixelKey</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>PixelKey</h1>
+        <p>Draw Using Keyboard</p>
+        <div class="main">
+            <div class="controls">
+                <h2>Controls</h2>
+                <p><b>Arrow Keys</b> - Move</p>
+                <p>Use Shift+[Corresponding Key] For Color</p>
+                <p><b>1</b> - Red</p>
+                <p><b>2</b> - Blue</p>
+                <p><b>3</b> - Green</p>
+                <p><b>4</b> - Yellow</p>
+                <p><b>5</b> - Purple</p>
+                <p><b>6</b> - Orange</p>
+                <p><b>7</b> - Black</p>
+                <p><b>E</b> - Erase Mode</p>
+                <p><b>C</b> - Clear</p>
+                <p><b>M</b> - Mirror Mode</p>
+                <p><b>Z</b> - Undo</p>
+                <p><b>Y</b> - Redo</p>
+                <p><b>-</b> - Bigger Grid</p>
+                <p><b>+</b> - Smaller Grid</p>
+                <p><b>S</b> - Save PNG</p>
+                <p><b>J</b> - Save JPG</p>
+                <div class="colorText">Current Color</div>
+                <div id="currentColor"></div>
+                <p id="mode">Mode: Draw</p>
+                <p id="coordinates">X: 1 | Y: 1</p>
+                <p id="gridSize">Grid: 20x20</p>
+            </div>
+            <div id="drawingArea"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
